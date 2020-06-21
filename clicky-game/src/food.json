@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "Thai Red Curry",
+      "clicked": false,
+      "image":
+        "./public/assets/thai-food-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Vibrant Thai Plate",
+        "clicked": false,
+        "image":
+          "./public/assets/thai-food-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Thai Plate with Egg",
+        "clicked": false,
+        "image":
+          "./public/assets/thai-food-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Brisket Tacos",
+        "clicked": false,
+        "image":
+          "./public/assets/mexican-food-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Mexican Meal Spread",
+        "clicked": false,
+        "image":
+          "./public/assets/mexican-food-2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Vibrant Green Mexican Dish",
+        "clicked": false,
+        "image":
+          "./public/assets/mexican-food-3.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Italian Simple Pasta",
+        "clicked": false,
+        "image":
+          "./public/assets/italian-food-1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Muffaletta Sandwich",
+        "clicked": false,
+        "image":
+          "./public/assets/italian-food-2.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Italian Tomato Pie",
+        "clicked": false,
+        "image":
+          "./public/assets/italian-food-3.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mussles Dish",
+        "clicked": false,
+        "image":
+          "./public/assets/italian-food-4.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Simple Greek Sandwich",
+        "clicked": false,
+        "image":
+          "./public/assets/greek-food-1.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Vibrant Greek Dish",
+        "clicked": false,
+        "image":
+          "./public/assets/greek-food-2.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Dessert Pies",
+        "clicked": false,
+        "image":
+          "./public/assets/dessert-1.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Mini Lemon Cakes",
+        "clicked": false,
+        "image":
+          "./public/assets/dessert-2.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Donuts",
+        "clicked": false,
+        "image":
+          "./public/assets/dessert-3.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Apple Pie",
+        "clicked": false,
+        "image":
+          "./public/assets/dessert-4.jpg"
+    }
+]    
