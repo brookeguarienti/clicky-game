@@ -9,21 +9,14 @@
     background-repeat: no-repeat;
   }
   
-  /* .card:hover {
+  .card:hover {
     cursor: pointer;
     transform: scale(1.3);
-  } */
+  }
   
   .card .img-container > img {
     width: 100%;
     height: 100%;
-  }
-  
-  .card .img-container:hover > img {
-    width: 100%;
-    height: 100%;
-    filter: invert(100%);
-    background-repeat: no-repeat;
   }
   
   .img-container:hover .overlay {
@@ -44,9 +37,6 @@
     transition: 0.5s ease;
     opacity: 0.8;
     cursor: pointer;
-    /* cursor:cell; */
-    /* cursor:crosshair; */
-    /* cursor:progress; */
   }
   
   .text {
@@ -59,5 +49,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    /* white-space: nowrap; */
   }

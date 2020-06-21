@@ -1,0 +1,9 @@
+.navbar {
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar p {
+    font-size:1rem;
+    text-align: center;
+    margin-left: 50px;
+}
