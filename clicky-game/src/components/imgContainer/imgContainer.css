@@ -1,31 +1,39 @@
 .card {
-    font-size: 10px;
-    height: 250px;
-    width: 250px;
-    margin: 0 auto 30px;
-    text-align: center;
+    /* max-height: 150px;
+    max-width: 150px; */
+    margin: 10px 30px 10px;
     border: none !important;
     background: none;
     background-repeat: no-repeat;
+    float: left;
   }
   
   .card:hover {
     cursor: pointer;
     transform: scale(1.3);
   }
+
+
   
   .card .img-container > img {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .card .img-container .img {
+    width: 150px;
+    height: 150px;
   }
   
-  .img-container:hover .overlay {
+  /* .img-container:hover .overlay {
     bottom: 0;
     height: 100%;
     background-repeat: no-repeat;
-  }
+  } */
   
-  .overlay {
+  /* .overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -37,7 +45,7 @@
     transition: 0.5s ease;
     opacity: 0.8;
     cursor: pointer;
-  }
+  } */
   
   .text {
     font-family: "Noto Serif SC", serif;

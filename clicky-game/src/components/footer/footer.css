@@ -1,6 +1,8 @@
-#footer {
+.footer {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;  
+    color: black;  
     height: 50px;
+    text-align: center;
+    padding-bottom: 10px;
   }

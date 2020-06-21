@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Footer from "./components/navbar";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Cards from "./components/imgContainer";
 import Navbar from "./components/navbar";
@@ -94,7 +94,7 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         </div>
-        <div
+        {/* <div
           className="alert alert-danger"
           style={{ opacity: this.state.showAlert }}
         >
@@ -105,7 +105,7 @@ class App extends Component {
           style={{ opacity: this.state.showSuccess }}
         >
           High-Five! You won!
-        </div>
+        </div> */}
         <Header />
         <div className="row">
           {this.state.food.map((food) => (
