@@ -6,8 +6,9 @@ function Navbar(props) {
     return (
         <nav className="navbar sticky-top">
             <p className="navbar-brand">Clicky Game</p>
-            <p className="navbar-brand">{props.message}</p>
-            <p className="navbar-brand">Your Score is {props.score} | Top Score {props.topScore}</p>
+            {/* allow for message to be placed if we wanted one for each click, win, topscore, etc */}
+            {/* <p className="navbar-brand">{props.message}</p> */}
+            <p className="navbar-brand score">Your Score is {props.score} | Top Score {props.topScore}</p>
         </nav>
 
     );

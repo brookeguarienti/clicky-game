@@ -86,7 +86,7 @@ class App extends Component {
   // render the Navbar, Header, Footer, and Image Container to the page
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
          <div>
         {/* Navbar render score and top score */}
         <Navbar
@@ -94,18 +94,6 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         </div>
-        {/* <div
-          className="alert alert-danger"
-          style={{ opacity: this.state.showAlert }}
-        >
-          Oh no! You've already clicked this one. Please try again!
-        </div>
-        <div
-          className="alert alert-success"
-          style={{ opacity: this.state.showSuccess }}
-        >
-          High-Five! You won!
-        </div> */}
         <Header />
         <div className="row">
           {this.state.food.map((food) => (

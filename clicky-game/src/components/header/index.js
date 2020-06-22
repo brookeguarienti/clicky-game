@@ -3,7 +3,7 @@ import "./header.css";
 
 function Header() {
     return(
-        <div className="header">
+        <div className="header row">
             <h2>
             Food From Around The World Click-Game
             </h2>

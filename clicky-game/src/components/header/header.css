@@ -1,4 +1,4 @@
-.header {
+.header.row{
     background-color: orange;
     height: 150px auto;
     width: auto;
@@ -10,8 +10,12 @@
 .header h2 {
     font-size: 3rem;
     font-weight: bold;
+    display: block;
+    width: 100%;
 }
 
 .header p {
     font-size: 15px;
+    display: block;
+    width: 100%;
 }

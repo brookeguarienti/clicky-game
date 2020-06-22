@@ -7,3 +7,7 @@
     text-align: center;
     margin-left: 50px;
 }
+
+.navbar .score p {
+   text-align: center;
+}
