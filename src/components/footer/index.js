@@ -1,6 +1,7 @@
 import React from 'react';
 import "./footer.css";
 
+// function footer 
 function Footer() {
     return (
         <nav className="footer sticky-footer row">

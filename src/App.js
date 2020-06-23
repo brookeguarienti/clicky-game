@@ -94,6 +94,7 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         </div>
+        {/* Render header */}
         <Header />
         <div className="row">
           {this.state.food.map((food) => (
@@ -106,6 +107,7 @@ class App extends Component {
             />
           ))}
         </div>
+        {/* Render footer */}
         <Footer />
       </div>
     );

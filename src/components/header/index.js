@@ -1,6 +1,7 @@
 import React from 'react';
 import "./header.css";
 
+// function header 
 function Header() {
     return(
         <div className="header row">
